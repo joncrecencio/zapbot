@@ -1,4 +1,4 @@
-## importar as bibliotecas primeiramente
+## Importar as bibliotecas primeiramente
 from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
@@ -10,8 +10,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com/')
 time.sleep(15)
 
-## definir contatos e grupos que serão enviados contatos devem ser escritos igual está salvo na sua agenda e separados por aspas simples e virgulas, exemplo abaixo
-
+Definir contatos e grupos que serão enviados contatos devem ser escritos igual está salvo na sua agenda e separados por aspas simples e virgulas, exemplo abaixo
 contatos = ['contato1', 'contato2', 'grupo1', 'Grupo 02']
 
 
@@ -20,7 +19,7 @@ contatos = ['contato1', 'contato2', 'grupo1', 'Grupo 02']
 mensagem = 'Oi pessoal, desculpem mandar mensagem essa hora, estou testando automação, então quem está enviando é o robô que eu fiz rsrs (tô falando sério)'
 
 
-### buscar contatos / grupos
+### Buscar contatos / grupos
 
 def buscar_contato(contato):
     campo_pesquisa = driver.find_element_by_xpath('//div[contains(@class,"copyable-text selectable-text")]')
