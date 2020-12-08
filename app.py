@@ -1,4 +1,4 @@
-#importar as bibliotecas
+#Importar as bibliotecas
 from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
