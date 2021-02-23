@@ -10,9 +10,9 @@ driver.get('https://web.whatsapp.com/')
 time.sleep(15)
 
 #definir contatos e grupos que serão enviados
-contatos = ['Contatos aqui dentro separando por aspas simples e virgulas']
+contatos = ['Israel Definitivo', 'Kreia', 'Marcão', 'Carlos backup', 'Evanildo']
 
-mensagem = 'Oi pessoal, desculpem mandar mensagem essa hora, estou testando automação, então quem está enviando é o robô que eu fiz rsrs (tô falando sério)'
+mensagem = 'Mãe já chegou em casa, obrigado à todos pela preocupação!!! Obs: Mensagem enviada pelo protótipo do R2'
 
 #buscar contatos / grupos
 def buscar_contato(contato):
