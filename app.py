@@ -10,9 +10,9 @@ driver.get('https://web.whatsapp.com/')
 time.sleep(15)
 
 #definir contatos e grupos que serão enviados
-contatos = ['Israel Definitivo', 'Kreia', 'Marcão', 'Carlos backup', 'Evanildo']
+contatos = ['']
 
-mensagem = 'Mãe já chegou em casa, obrigado à todos pela preocupação!!! Obs: Mensagem enviada pelo protótipo do R2'
+mensagem = 'Feliz dia dos pais, que Deus abençoe todos vocês.'
 
 #buscar contatos / grupos
 def buscar_contato(contato):
